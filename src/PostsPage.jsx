@@ -1,5 +1,5 @@
-import { PostsIndex } from '/PostsIndex';
-import { PostsNew } from '/PostsNew';
+import { PostsIndex } from './PostsIndex';
+import { PostsNew } from './PostsNew';
 
 function PostsPage() {
 
