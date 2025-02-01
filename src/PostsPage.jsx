@@ -1,8 +1,8 @@
 import { PostsIndex } from './PostsIndex';
 import { PostsNew } from './PostsNew';
 import axios from "axios";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from 'react'
+
 
 function PostsPage() {
 
@@ -16,7 +16,7 @@ function PostsPage() {
 }
 
 function handleIndex () {
-  axios.get('http://localhost:3000/recipes.json');
+  axios.get('http://localhost:3000/posts.json');
   // posts = response.data
 }
 

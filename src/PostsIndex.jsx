@@ -1,4 +1,4 @@
-function PostIndex({ posts }) {
+export function PostIndex({ posts }) {
   return (
     <div id="recipes-index">
       <h1>All recipes</h1>
